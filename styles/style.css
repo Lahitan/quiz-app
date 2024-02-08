@@ -43,6 +43,7 @@ body{
     background-size: cover;
     background-position: center;
     transition: 0.3s ease;
+    overflow: hidden;
 }
 
 .main.active{
@@ -54,6 +55,7 @@ body{
     display: flex;
     height: 100vh;
     width: 200%;
+    overflow: hidden;
 }
 
 .home{
@@ -498,6 +500,7 @@ border-color: #950170;
 .navbar a.active:hover{
     color:#f2c5e7f7 ;
 }
+
 
 
 /*style for hero*/
